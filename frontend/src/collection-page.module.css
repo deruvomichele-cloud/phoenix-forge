@@ -1,0 +1,19 @@
+.page{min-height:100vh;background:radial-gradient(circle at 80% 10%,rgba(199,125,255,0.12),transparent 45%),radial-gradient(circle at 20% 90%,rgba(255,216,107,0.10),transparent 45%),#05060b;color:#f5f5fa;font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;padding:32px 48px 80px}
+.header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:32px;flex-wrap:wrap;gap:24px}
+.backLink{display:inline-block;font-size:13px;color:#8b8d9c;text-decoration:none;margin-bottom:12px;transition:color 0.15s}
+.backLink:hover{color:#ffd86b}
+.header h1{margin:0 0 6px;font-size:30px;font-weight:800;background:linear-gradient(90deg,#ffd86b,#c77dff);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.header p{margin:0;color:#8b8d9c;font-size:14px}
+.stats{display:flex;gap:12px}
+.statBox{background:linear-gradient(135deg,rgba(255,255,255,0.05),rgba(255,255,255,0.01));border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:16px 20px;display:flex;flex-direction:column;align-items:center;min-width:100px}
+.statValue{font-size:26px;font-weight:800;color:#ffd86b;line-height:1}
+.statLabel{font-size:11px;text-transform:uppercase;letter-spacing:1.4px;color:#6c6f80;margin-top:6px}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:32px;padding:16px;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.05);border-radius:14px}
+.filterChip{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border-radius:10px;border:1px solid rgba(255,255,255,0.12);background:rgba(255,255,255,0.03);color:#f5f5fa;font-size:13px;font-weight:600;cursor:pointer;transition:transform 0.15s,background 0.15s}
+.filterChip:hover{transform:translateY(-1px);background:rgba(255,255,255,0.08)}
+.filterChipActive{background:rgba(255,216,107,0.18)!important;border-color:#ffd86b!important}
+.filterCount{font-size:11px;color:#8b8d9c;font-family:'JetBrains Mono',monospace;background:rgba(0,0,0,0.35);padding:2px 6px;border-radius:6px}
+.empty{text-align:center;padding:64px 24px;color:#8b8d9c;border:1px dashed rgba(255,255,255,0.1);border-radius:16px}
+.empty a{color:#ffd86b;text-decoration:none;font-weight:700}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:24px}
+@media(max-width:700px){.page{padding:24px 20px 60px}}
