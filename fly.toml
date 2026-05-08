@@ -4,11 +4,11 @@ primary_region = "cdg"
 [build]
 
 [env]
-  PORT = "3000"
-  DATA_DIR = "/data"
+  PORT = "8080"
+  GITHUB_REPO = "deruvomichele-cloud/phoenix-forge"
 
 [http_service]
-  internal_port = 3000
+  internal_port = 8080
   force_https = true
   auto_stop_machines = true
   auto_start_machines = true
@@ -18,8 +18,3 @@ primary_region = "cdg"
   memory = "256mb"
   cpu_kind = "shared"
   cpus = 1
-
-[[mounts]]
-  source = "phoenix_data"
-  destination = "/data"
-  initial_size = "1gb"
