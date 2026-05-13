@@ -1,5 +1,27 @@
 [
   {
+    "id": "recovered-7gbh09dl",
+    "name": "Recovered Phoenix #7gbh09",
+    "elements": [
+      {
+        "id": "shadow",
+        "name": "Ombra",
+        "emoji": "🌑",
+        "color": "#9b6bff",
+        "glow": "rgba(155,107,255,0.65)",
+        "visualKeywords": "void",
+        "backgroundKeywords": "eclipse"
+      }
+    ],
+    "imageUrl": "",
+    "videoUrl": "https://litter.catbox.moe/1trs2y.mp4",
+    "videoRemoteUrl": "https://litter.catbox.moe/1trs2y.mp4",
+    "videoJobId": "7gbh09dlLshh4JcNJeM6",
+    "status": "complete",
+    "variationLabel": "recovered",
+    "createdAt": 1778143327000
+  },
+  {
     "id": "recovered-MrMV8t14",
     "name": "Recovered Phoenix #MrMV8t",
     "elements": [
