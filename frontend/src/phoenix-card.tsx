@@ -8,7 +8,8 @@ const DEFAULT_KLING_MODEL: KlingModelId = 'kwaivgi/kling-video-o1';
 export type PhoenixNft = {
   id: string; name: string; elements: Element[]; imageUrl: string;
   videoUrl?: string; videoRemoteUrl?: string; videoJobId?: string;
-  videoModelId?: KlingModelId; status: 'generating-image'|'image-ready'|'animating'|'complete'|'error';
+  videoModelId?: KlingModelId;
+  status: 'generating-image'|'image-ready'|'animating'|'complete'|'error';
   error?: string; progressLabel?: string; variationLabel?: string; createdAt: number;
 };
 
@@ -31,20 +32,20 @@ export function PhoenixCard({ nft, onAnimate, onAttachJobId, onDelete }: Phoenix
         {nft.status==='generating-image' && <div className={styles.loading}><div className={styles.spinner}/><span>Forging phoenix essence…</span></div>}
         {nft.status==='error' && <div className={styles.error}><span>⚠️ {nft.error}</span></div>}
         {nft.imageUrl && nft.status!=='complete' && <img src={nft.imageUrl} alt={nft.name} className={styles.image}/>}
-        {nft.status==='animating' && (
-          <div className={styles.animatingOverlay}>
-            <div className={styles.spinner}/>
-            <span>{nft.progressLabel||'Awakening with Kling…'}</span>
-          </div>
-        )}
+        {nft.status==='animating' && <div className={styles.animatingOverlay}><div className={styles.spinner}/><span>{nft.progressLabel||'Awakening with Kling…'}</span></div>}
         {nft.status==='complete' && nft.videoUrl && (
-          <video key={nft.videoUrl} src={nft.videoUrl} className={styles.image} autoPlay loop muted playsInline controls onLoadedData={e=>{void e.currentTarget.play().catch(()=>{});}} onCanPlay={e=>{void e.currentTarget.play().catch(()=>{}); }} onClick={e=>{void e.currentTarget.play().catch(()=>{});}}/>
+          <video
+            key={nft.videoUrl}
+            src={nft.videoUrl}
+            className={styles.image}
+            autoPlay loop muted playsInline preload="auto"
+            onLoadedData={e=>{void e.currentTarget.play().catch(()=>{});}}
+            onCanPlay={e=>{void e.currentTarget.play().catch(()=>{});}}
+          />
         )}
         {nft.status==='complete' && !nft.videoUrl && (
-          <>
-            {nft.imageUrl ? <img src={nft.imageUrl} alt={nft.name} className={styles.image}/> : <div className={styles.placeholder}><span className={styles.placeholderEmoji}>{nft.elements[0]?.emoji||'🔥'}</span></div>}
-            <div className={styles.animatingOverlay}><div className={styles.spinner}/><span>Loading video…</span></div>
-          </>
+          <><div className={styles.placeholder}><span className={styles.placeholderEmoji}>{nft.elements[0]?.emoji||'🔥'}</span></div>
+          <div className={styles.animatingOverlay}><div className={styles.spinner}/><span>Loading…</span></div></>
         )}
       </div>
       <div className={styles.body}>
@@ -75,7 +76,7 @@ export function PhoenixCard({ nft, onAnimate, onAttachJobId, onDelete }: Phoenix
             const jobId=window.prompt('OpenRouter video job_id:');
             if(!jobId) return;
             try { await onAttachJobId(nft.id, jobId.trim()); } catch(e) { window.alert(`Error: ${e instanceof Error?e.message:e}`); }
-          }}>🔗 Attach existing video by ID</button>
+          }}>🔗 Attach video by ID</button>
         )}
         {nft.status==='complete' && <div className={styles.completeTag}><span>✨ Living NFT{usedModel?` · ${usedModel.label}`:''}</span></div>}
       </div>
