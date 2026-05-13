@@ -1,5 +1,36 @@
 [
   {
+    "id": "recovered-HP3bTZSu",
+    "name": "Recovered Phoenix #HP3bTZ",
+    "elements": [
+      {
+        "id": "lightning",
+        "name": "Fulmine",
+        "emoji": "⚡",
+        "color": "#c77dff",
+        "glow": "rgba(199,125,255,0.65)",
+        "visualKeywords": "electric",
+        "backgroundKeywords": "thunderstorm"
+      },
+      {
+        "id": "shadow",
+        "name": "Ombra",
+        "emoji": "🌑",
+        "color": "#9b6bff",
+        "glow": "rgba(155,107,255,0.65)",
+        "visualKeywords": "void",
+        "backgroundKeywords": "eclipse"
+      }
+    ],
+    "imageUrl": "",
+    "videoUrl": "https://litter.catbox.moe/qjbcgi.mp4",
+    "videoRemoteUrl": "https://litter.catbox.moe/qjbcgi.mp4",
+    "videoJobId": "HP3bTZSuWNqY3flZj7Y2",
+    "status": "complete",
+    "variationLabel": "recovered",
+    "createdAt": 1778139607000
+  },
+  {
     "id": "recovered-TKmgjSdv",
     "name": "Recovered Phoenix #TKmgjS",
     "elements": [
