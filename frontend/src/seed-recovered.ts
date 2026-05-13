@@ -1,7 +1,8 @@
 import type { PhoenixNft } from './phoenix-card.js';
 import { ELEMENTS } from './elements.js';
 
-// Videos served via /videos/ proxy on the same Fly.io server — no redirects, correct Content-Type
+// Videos served via the Fly.io Express server proxy at /videos/pN.mp4
+// The server downloads from GitHub Releases and serves with correct Content-Type + Range support
 const V = (n: number) => `/videos/p${n}.mp4`;
 
 const RECOVERED_DATA = [
