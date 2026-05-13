@@ -1,5 +1,26 @@
 [
   {
+    "id": "recovered-JI1WPhgw",
+    "name": "Recovered Phoenix #JI1WPh",
+    "elements": [
+      {
+        "id": "lightning",
+        "name": "Fulmine",
+        "emoji": "⚡",
+        "color": "#c77dff",
+        "glow": "rgba(199,125,255,0.65)",
+        "visualKeywords": "electric",
+        "backgroundKeywords": "thunderstorm"
+      }
+    ],
+    "imageUrl": "",
+    "videoUrl": "https://litter.catbox.moe/qiw0o5.mp4",
+    "videoRemoteUrl": "https://litter.catbox.moe/qiw0o5.mp4",
+    "status": "complete",
+    "variationLabel": "recovered",
+    "createdAt": 1778154407000
+  },
+  {
     "id": "recovered-vmw1oRQd",
     "name": "Recovered Phoenix #vmw1oR",
     "elements": [
