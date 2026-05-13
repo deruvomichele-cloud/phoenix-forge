@@ -1,5 +1,27 @@
 [
   {
+    "id": "recovered-d2bAZY91",
+    "name": "Recovered Phoenix #d2bAZY",
+    "elements": [
+      {
+        "id": "earth",
+        "name": "Terra",
+        "emoji": "🌿",
+        "color": "#7bcf6a",
+        "glow": "rgba(123,207,106,0.55)",
+        "visualKeywords": "moss",
+        "backgroundKeywords": "forest"
+      }
+    ],
+    "imageUrl": "",
+    "videoUrl": "https://litter.catbox.moe/5jsyu1.mp4",
+    "videoRemoteUrl": "https://litter.catbox.moe/5jsyu1.mp4",
+    "videoJobId": "d2bAZY91bZgd1upccsIp",
+    "status": "complete",
+    "variationLabel": "recovered",
+    "createdAt": 1778153195000
+  },
+  {
     "id": "recovered-XMKLoLKG",
     "name": "Recovered Phoenix #XMKLoL",
     "elements": [
