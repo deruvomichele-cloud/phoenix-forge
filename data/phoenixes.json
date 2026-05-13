@@ -1,5 +1,35 @@
 [
   {
+    "id": "recovered-TKmgjSdv",
+    "name": "Recovered Phoenix #TKmgjS",
+    "elements": [
+      {
+        "id": "fire",
+        "name": "Fuoco",
+        "emoji": "🔥",
+        "color": "#ff6a3a",
+        "glow": "rgba(255,106,58,0.65)",
+        "visualKeywords": "flame",
+        "backgroundKeywords": "volcano"
+      },
+      {
+        "id": "air",
+        "name": "Aria",
+        "emoji": "🌬️",
+        "color": "#b6e3ff",
+        "glow": "rgba(182,227,255,0.55)",
+        "visualKeywords": "wind",
+        "backgroundKeywords": "clouds"
+      }
+    ],
+    "imageUrl": "",
+    "videoUrl": "https://litter.catbox.moe/bod4f1.mp4",
+    "videoRemoteUrl": "https://litter.catbox.moe/bod4f1.mp4",
+    "status": "complete",
+    "variationLabel": "recovered",
+    "createdAt": 1778139683000
+  },
+  {
     "id": "recovered-QxJyBCbT",
     "name": "Recovered Phoenix #QxJyBC",
     "elements": [
