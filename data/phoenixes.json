@@ -1,5 +1,36 @@
 [
   {
+    "id": "recovered-QxJyBCbT",
+    "name": "Recovered Phoenix #QxJyBC",
+    "elements": [
+      {
+        "id": "earth",
+        "name": "Terra",
+        "emoji": "🌿",
+        "color": "#7bcf6a",
+        "glow": "rgba(123,207,106,0.55)",
+        "visualKeywords": "moss",
+        "backgroundKeywords": "forest"
+      },
+      {
+        "id": "shadow",
+        "name": "Ombra",
+        "emoji": "🌑",
+        "color": "#9b6bff",
+        "glow": "rgba(155,107,255,0.65)",
+        "visualKeywords": "void",
+        "backgroundKeywords": "eclipse"
+      }
+    ],
+    "imageUrl": "",
+    "videoUrl": "https://litter.catbox.moe/tdh2jl.mp4",
+    "videoRemoteUrl": "https://litter.catbox.moe/tdh2jl.mp4",
+    "videoJobId": "QxJyBCbT1BQaG3FxBVKl",
+    "status": "complete",
+    "variationLabel": "recovered",
+    "createdAt": 1778139866000
+  },
+  {
     "id": "recovered-GbZo45Wl",
     "name": "Recovered Phoenix #GbZo45",
     "elements": [
