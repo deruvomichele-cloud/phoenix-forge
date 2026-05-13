@@ -1,5 +1,26 @@
 [
   {
+    "id": "recovered-MrMV8t14",
+    "name": "Recovered Phoenix #MrMV8t",
+    "elements": [
+      {
+        "id": "light",
+        "name": "Luce",
+        "emoji": "✨",
+        "color": "#ffd86b",
+        "glow": "rgba(255,216,107,0.7)",
+        "visualKeywords": "radiant",
+        "backgroundKeywords": "heavens"
+      }
+    ],
+    "imageUrl": "",
+    "videoUrl": "https://litter.catbox.moe/b1uibh.mp4",
+    "videoRemoteUrl": "https://litter.catbox.moe/b1uibh.mp4",
+    "status": "complete",
+    "variationLabel": "recovered",
+    "createdAt": 1778146597000
+  },
+  {
     "id": "recovered-06NKPSKOEg",
     "name": "Recovered Phoenix #06NKPS",
     "elements": [
