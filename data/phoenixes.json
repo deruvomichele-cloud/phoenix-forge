@@ -1,5 +1,36 @@
 [
   {
+    "id": "recovered-ZFgQmij2",
+    "name": "Recovered Phoenix #ZFgQmi",
+    "elements": [
+      {
+        "id": "water",
+        "name": "Acqua",
+        "emoji": "💧",
+        "color": "#3aa9ff",
+        "glow": "rgba(58,169,255,0.55)",
+        "visualKeywords": "liquid",
+        "backgroundKeywords": "ocean"
+      },
+      {
+        "id": "light",
+        "name": "Luce",
+        "emoji": "✨",
+        "color": "#ffd86b",
+        "glow": "rgba(255,216,107,0.7)",
+        "visualKeywords": "radiant",
+        "backgroundKeywords": "heavens"
+      }
+    ],
+    "imageUrl": "",
+    "videoUrl": "https://litter.catbox.moe/s1qcw4.mp4",
+    "videoRemoteUrl": "https://litter.catbox.moe/s1qcw4.mp4",
+    "videoJobId": "ZFgQmij2Prh2VsfLn7rX",
+    "status": "complete",
+    "variationLabel": "recovered",
+    "createdAt": 1778142708000
+  },
+  {
     "id": "recovered-sDDifUzb",
     "name": "Recovered Phoenix #sDDifU",
     "elements": [
