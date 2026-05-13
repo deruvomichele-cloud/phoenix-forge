@@ -38,7 +38,7 @@ export function PhoenixCard({ nft, onAnimate, onAttachJobId, onDelete }: Phoenix
           </div>
         )}
         {nft.status==='complete' && nft.videoUrl && (
-          <video key={nft.videoUrl} src={nft.videoUrl} className={styles.image} autoPlay loop muted playsInline onCanPlay={e=>{void e.currentTarget.play().catch(()=>{});}}/>
+          <video key={nft.videoUrl} src={nft.videoUrl} className={styles.image} autoPlay loop muted playsInline controls onLoadedData={e=>{void e.currentTarget.play().catch(()=>{});}} onCanPlay={e=>{void e.currentTarget.play().catch(()=>{}); }} onClick={e=>{void e.currentTarget.play().catch(()=>{});}}/>
         )}
         {nft.status==='complete' && !nft.videoUrl && (
           <>
