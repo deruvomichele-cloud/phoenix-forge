@@ -1,5 +1,27 @@
 [
   {
+    "id": "recovered-XMKLoLKG",
+    "name": "Recovered Phoenix #XMKLoL",
+    "elements": [
+      {
+        "id": "water",
+        "name": "Acqua",
+        "emoji": "💧",
+        "color": "#3aa9ff",
+        "glow": "rgba(58,169,255,0.55)",
+        "visualKeywords": "liquid",
+        "backgroundKeywords": "ocean"
+      }
+    ],
+    "imageUrl": "",
+    "videoUrl": "https://litter.catbox.moe/ainjmr.mp4",
+    "videoRemoteUrl": "https://litter.catbox.moe/ainjmr.mp4",
+    "videoJobId": "XMKLoLKGyNcoItBjdHNl",
+    "status": "complete",
+    "variationLabel": "recovered",
+    "createdAt": 1778153204000
+  },
+  {
     "id": "recovered-JI1WPhgw",
     "name": "Recovered Phoenix #JI1WPh",
     "elements": [
